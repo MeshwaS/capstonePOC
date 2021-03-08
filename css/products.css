@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #00a3ad;
+  padding-left: 3%;
+}
+
+.navbar a:hover {
+  background-color: #00e0f0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+.current {
+  background-color: teal;
+}
+
+#page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#footer {
+  background-color: #00a3ad;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+
+.page-footer {
+  background-color: #00a3ad;
+}

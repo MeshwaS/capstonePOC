@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #00a3ad;
+  padding-left: 3%;
+}
+
+.navbar a:hover {
+  background-color: #00e0f0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.current {
+  background-color: teal;
+}
+
+@media (min-width: 992px) {
+  #intro-line {
+    display: flex;
+    margin-top: 100px;
+  }
+}
+
+#intro-line {
+  font-family: "Ma Shan Zheng", cursive;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 90%;
+}
+
+#page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+
+.page-footer {
+  background-color: #00a3ad;
+}
